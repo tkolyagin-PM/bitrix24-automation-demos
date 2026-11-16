@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sales KPI Dashboard</title>
+<style>
+  :root { --bg:#f5f6f8; --card:#fff; --ink:#1d2433; --muted:#6b7385; --line:#e6e8ee;
+          --blue:#2f6fed; --green:#1f9d63; --red:#d9473f; --grey:#c9ced8; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:14px/1.4 -apple-system, "Segoe UI", Inter, sans-serif; }
+  .wrap { max-width:1520px; margin:0 auto; padding:28px 32px; }
+  header { display:flex; justify-content:space-between; align-items:baseline; margin-bottom:20px; }
+  h1 { font-size:24px; margin:0; letter-spacing:-.01em; }
+  .sub { color:var(--muted); }
+  .tiles { display:grid; grid-template-columns:repeat(5,1fr); gap:14px; margin-bottom:14px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:16px 18px; }
+  .tile .label { color:var(--muted); font-size:13px; }
+  .tile .value { font-size:30px; font-weight:650; margin:4px 0 2px; font-variant-numeric:tabular-nums; }
+  .tile .note { color:var(--muted); font-size:12px; }
+  .tile.alert .value { color:var(--red); }
+  .grid { display:grid; grid-template-columns:2fr 1fr; gap:14px; margin-bottom:14px; }
+  .head { display:flex; justify-content:space-between; align-items:center; margin-bottom:6px; }
+  h2 { font-size:15px; margin:0; }
+  .legend { display:flex; gap:14px; color:var(--muted); font-size:12px; }
+  .legend i { display:inline-block; width:10px; height:10px; border-radius:2px; margin-right:5px; vertical-align:-1px; }
+  svg { display:block; width:100%; height:240px; }
+  svg text { fill:var(--muted); font-size:11px; }
+  table { width:100%; border-collapse:collapse; font-variant-numeric:tabular-nums; }
+  th, td { text-align:right; padding:9px 10px; border-bottom:1px solid var(--line); }
+  th:first-child, td:first-child { text-align:left; }
+  th { color:var(--muted); font-weight:500; font-size:12px; text-transform:uppercase; letter-spacing:.04em; }
+  .bad { color:var(--red); font-weight:600; }
+  .bar { display:inline-block; height:8px; border-radius:4px; background:var(--green); vertical-align:middle; margin-left:8px; }
+  @media (max-width:900px){ .tiles{grid-template-columns:repeat(2,1fr);} .grid{grid-template-columns:1fr;} }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div><h1>Sales KPI Dashboard</h1><div class="sub">Bitrix24 CRM · demo company · last 30 days</div></div>
+    <div class="sub" id="updated"></div>
+  </header>
+  <div class="tiles" id="tiles"></div>
+  <div class="grid">
+    <div class="card"><div class="head"><h2>New deals per day &amp; revenue won</h2>
+      <div class="legend"><span><i style="background:var(--blue)"></i>New deals</span><span><i style="background:var(--green)"></i>Revenue won, $</span></div></div>
+      <svg id="daily" viewBox="0 0 900 240"></svg></div>
+    <div class="card"><div class="head"><h2>Open pipeline by stage</h2>
+      <div class="legend"><span><i style="background:var(--blue)"></i>Within SLA</span><span><i style="background:var(--red)"></i>Stuck</span></div></div>
+      <svg id="stages" viewBox="0 0 420 240"></svg></div>
+  </div>
+  <div class="grid">
+    <div class="card"><h2 style="margin-bottom:6px">Managers</h2><table id="mgr"></table></div>
+    <div class="card"><div class="head"><h2>Won vs lost by source</h2>
+      <div class="legend"><span><i style="background:var(--green)"></i>Won</span><span><i style="background:var(--grey)"></i>Lost</span></div></div>
+      <svg id="sources" viewBox="0 0 420 240"></svg></div>
+  </div>
+</div>
+<script>
+const D = /*DATA*/null;
+const C = { blue:'#2f6fed', green:'#1f9d63', red:'#d9473f', grey:'#c9ced8', line:'#eef0f4' };
+const el = (tag, a, txt) => `<${tag} ${Object.entries(a).map(([k, v]) => `${k}="${v}"`).join(' ')}>${txt ?? ''}</${tag}>`;
+const nice = m => { const p = 10 ** Math.floor(Math.log10(m || 1)); return Math.ceil(m / p) * p; };
+const fmt = v => v >= 1000 ? (v / 1000).toFixed(v >= 10000 ? 0 : 1) + 'k' : String(v);
+
+document.getElementById('updated').textContent = 'Updated ' + D.now;
+document.getElementById('tiles').innerHTML = D.tiles.map((t, i) =>
+  `<div class="card tile ${i === 4 ? 'alert' : ''}"><div class="label">${t[0]}</div><div class="value">${t[1]}</div><div class="note">${t[2] || '&nbsp;'}</div></div>`).join('');
+
+const maxRev = Math.max(...D.managers.map(m => m.revenue));
+document.getElementById('mgr').innerHTML =
+  '<tr><th>Manager</th><th>Open</th><th>Stuck</th><th>Won</th><th>Win rate</th><th>Revenue</th></tr>' +
+  D.managers.map(m => `<tr><td>${m.name}</td><td>${m.open}</td><td class="${m.stuck >= 8 ? 'bad' : ''}">${m.stuck}</td>` +
+    `<td>${m.won}</td><td>${m.winrate}%</td><td>$${m.revenue.toLocaleString('en-US', {maximumFractionDigits:0})}` +
+    `<span class="bar" style="width:${Math.round(70 * m.revenue / maxRev)}px"></span></td></tr>`).join('');
+
+// daily: bars (new deals, left axis) + line (revenue, right axis)
+(() => {
+  const W = 900, H = 240, L = 34, R = 46, T = 10, B = 26, n = D.dates.length;
+  const w = (W - L - R) / n, yMax = nice(Math.max(...D.daily_new)), rMax = nice(Math.max(...D.daily_won));
+  const y = v => T + (H - T - B) * (1 - v / yMax), r = v => T + (H - T - B) * (1 - v / rMax);
+  let s = '';
+  for (let i = 0; i <= 4; i++) {
+    const v = yMax * i / 4, yy = y(v);
+    s += el('line', {x1:L, x2:W - R, y1:yy, y2:yy, stroke:C.line});
+    s += el('text', {x:L - 6, y:yy + 4, 'text-anchor':'end'}, fmt(v));
+    s += el('text', {x:W - R + 6, y:yy + 4}, '$' + fmt(rMax * i / 4));
+  }
+  D.daily_new.forEach((v, i) => {
+    s += el('rect', {x:L + i * w + w * .18, y:y(v), width:w * .64, height:y(0) - y(v), rx:2, fill:C.blue});
+    if (i % 5 === 0) s += el('text', {x:L + i * w + w / 2, y:H - 8, 'text-anchor':'middle'}, D.dates[i]);
+  });
+  const pts = D.daily_won.map((v, i) => `${L + i * w + w / 2},${r(v)}`).join(' ');
+  s += el('polyline', {points:pts, fill:'none', stroke:C.green, 'stroke-width':2.5, 'stroke-linejoin':'round'});
+  D.daily_won.forEach((v, i) => s += el('circle', {cx:L + i * w + w / 2, cy:r(v), r:2.5, fill:C.green}));
+  document.getElementById('daily').innerHTML = s;
+})();
+
+// horizontal stacked bars
+function hbars(id, labels, a, b, ca, cb) {
+  const W = 420, H = 240, L = 92, R = 30, T = 8, n = labels.length, rowH = (H - T) / n;
+  const max = nice(Math.max(...a.map((v, i) => v + b[i])));
+  const x = v => L + (W - L - R) * v / max;
+  let s = '';
+  labels.forEach((lab, i) => {
+    const yy = T + i * rowH + rowH * .2, h = rowH * .6;
+    s += el('text', {x:L - 8, y:yy + h / 2 + 4, 'text-anchor':'end'}, lab);
+    s += el('rect', {x:L, y:yy, width:x(a[i]) - L, height:h, rx:3, fill:ca});
+    s += el('rect', {x:x(a[i]), y:yy, width:x(a[i] + b[i]) - x(a[i]), height:h, rx:3, fill:cb});
+    s += el('text', {x:x(a[i] + b[i]) + 6, y:yy + h / 2 + 4}, a[i] + b[i]);
+  });
+  document.getElementById(id).innerHTML = s;
+}
+hbars('stages', D.stages, D.stage_count.map((c, i) => c - D.stage_stuck[i]), D.stage_stuck, C.blue, C.red);
+hbars('sources', D.sources.map(s => s[0] + s.slice(1).toLowerCase()), D.src_won, D.src_lost, C.green, C.grey);
+</script>
+</body>
+</html>

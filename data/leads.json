@@ -1,0 +1,926 @@
+[
+ {
+  "ID": "500",
+  "NAME": "Ella Foster",
+  "TITLE": "Website request — Ella Foster",
+  "PHONE": [
+   {
+    "VALUE": "+1 555 0114",
+    "VALUE_TYPE": "WORK"
+   }
+  ],
+  "ASSIGNED_BY_ID": "4",
+  "SOURCE_ID": "ADVERTISING",
+  "DATE_CREATE": "2026-11-15T14:44:21+05:00"
+ },
+ {
+  "ID": "501",
+  "NAME": "Leo Hughes",
+  "TITLE": "Website request — Leo Hughes",
+  "PHONE": [
+   {
+    "VALUE": "+1 555 0164",
+    "VALUE_TYPE": "WORK"
+   }
+  ],
+  "ASSIGNED_BY_ID": "4",
+  "SOURCE_ID": "WEB",
+  "DATE_CREATE": "2026-11-15T09:30:03+05:00"
+ },
+ {
+  "ID": "502",
+  "NAME": "Ethan Bennett",
+  "TITLE": "Website request — Ethan Bennett",
+  "PHONE": [
+   {
+    "VALUE": "+1 555 0180",
+    "VALUE_TYPE": "WORK"
+   }
+  ],
+  "ASSIGNED_BY_ID": "1",
+  "SOURCE_ID": "WEB",
+  "DATE_CREATE": "2026-11-15T01:09:09+05:00"
+ },
+ {
+  "ID": "503",
+  "NAME": "Lily Reed",
+  "TITLE": "Website request — Lily Reed",
+  "PHONE": [
+   {
+    "VALUE": "+1 555 0155",
+    "VALUE_TYPE": "WORK"
+   }
+  ],
+  "ASSIGNED_BY_ID": "2",
+  "SOURCE_ID": "ADVERTISING",
+  "DATE_CREATE": "2026-11-10T01:37:56+05:00"
+ },
+ {
+  "ID": "504",
+  "NAME": "Ruby Foster",
+  "TITLE": "Website request — Ruby Foster",
+  "PHONE": [
+   {
+    "VALUE": "+1 555 0162",
+    "VALUE_TYPE": "WORK"
+   }
+  ],
+  "ASSIGNED_BY_ID": "4",
+  "SOURCE_ID": "CALL",
+  "DATE_CREATE": "2026-11-15T13:02:34+05:00"
+ },
+ {
+  "ID": "505",
+  "NAME": "Lucas Reed",
+  "TITLE": "Website request — Lucas Reed",
+  "PHONE": [
+   {
+    "VALUE": "+1 555 0194",
+    "VALUE_TYPE": "WORK"
+   }
+  ],
+  "ASSIGNED_BY_ID": "4",
+  "SOURCE_ID": "CALL",
+  "DATE_CREATE": "2026-11-11T02:49:00+05:00"
+ },
+ {
+  "ID": "506",
+  "NAME": "Jack Hughes",
+  "TITLE": "Website request — Jack Hughes",
+  "PHONE": [
+   {
+    "VALUE": "+1 555 0108",
+    "VALUE_TYPE": "WORK"
+   }
+  ],
+  "ASSIGNED_BY_ID": "1",
+  "SOURCE_ID": "RECOMMENDATION",
+  "DATE_CREATE": "2026-11-15T14:33:53+05:00"
+ },
+ {
+  "ID": "507",
+  "NAME": "Lucas Hughes",
+  "TITLE": "Website request — Lucas Hughes",
+  "PHONE": [
+   {
+    "VALUE": "+1 555 0142",
+    "VALUE_TYPE": "WORK"
+   }
+  ],
+  "ASSIGNED_BY_ID": "1",
+  "SOURCE_ID": "ADVERTISING",
+  "DATE_CREATE": "2026-11-13T23:11:15+05:00"
+ },
+ {
+  "ID": "508",
+  "NAME": "Chloe Walker",
+  "TITLE": "Website request — Chloe Walker",
+  "PHONE": [
+   {
+    "VALUE": "+1 555 0120",
+    "VALUE_TYPE": "WORK"
+   }
+  ],
+  "ASSIGNED_BY_ID": "3",
+  "SOURCE_ID": "CALL",
+  "DATE_CREATE": "2026-11-11T15:02:37+05:00"
+ },
+ {
+  "ID": "509",
+  "NAME": "Nora Walker",
+  "TITLE": "Website request — Nora Walker",
+  "PHONE": [
+   {
+    "VALUE": "+1 555 0148",
+    "VALUE_TYPE": "WORK"
+   }
+  ],
+  "ASSIGNED_BY_ID": "3",
+  "SOURCE_ID": "WEB",
+  "DATE_CREATE": "2026-11-13T08:01:58+05:00"
+ },
+ {
+  "ID": "510",
+  "NAME": "Noah Barnes",
+  "TITLE": "Website request — Noah Barnes",
+  "PHONE": [
+   {
+    "VALUE": "+1 555 0147",
+    "VALUE_TYPE": "WORK"
+   }
+  ],
+  "ASSIGNED_BY_ID": "2",
+  "SOURCE_ID": "ADVERTISING",
+  "DATE_CREATE": "2026-11-14T15:22:42+05:00"
+ },
+ {
+  "ID": "511",
+  "NAME": "Emma Price",
+  "TITLE": "Website request — Emma Price",
+  "PHONE": [
+   {
+    "VALUE": "+1 555 0175",
+    "VALUE_TYPE": "WORK"
+   }
+  ],
+  "ASSIGNED_BY_ID": "1",
+  "SOURCE_ID": "RECOMMENDATION",
+  "DATE_CREATE": "2026-11-14T09:46:07+05:00"
+ },
+ {
+  "ID": "512",
+  "NAME": "Chloe Barnes",
+  "TITLE": "Website request — Chloe Barnes",
+  "PHONE": [
+   {
+    "VALUE": "+1 555 0152",
+    "VALUE_TYPE": "WORK"
+   }
+  ],
+  "ASSIGNED_BY_ID": "1",
+  "SOURCE_ID": "ADVERTISING",
+  "DATE_CREATE": "2026-11-14T23:40:00+05:00"
+ },
+ {
+  "ID": "513",
+  "NAME": "Max Ward",
+  "TITLE": "Website request — Max Ward",
+  "PHONE": [
+   {
+    "VALUE": "+1 555 0190",
+    "VALUE_TYPE": "WORK"
+   }
+  ],
+  "ASSIGNED_BY_ID": "5",
+  "SOURCE_ID": "ADVERTISING",
+  "DATE_CREATE": "2026-11-15T02:33:37+05:00"
+ },
+ {
+  "ID": "514",
+  "NAME": "Lucas Price",
+  "TITLE": "Website request — Lucas Price",
+  "PHONE": [
+   {
+    "VALUE": "+1 555 0181",
+    "VALUE_TYPE": "WORK"
+   }
+  ],
+  "ASSIGNED_BY_ID": "4",
+  "SOURCE_ID": "WEB",
+  "DATE_CREATE": "2026-11-15T12:45:45+05:00"
+ },
+ {
+  "ID": "515",
+  "NAME": "Ethan Hughes",
+  "TITLE": "Website request — Ethan Hughes",
+  "PHONE": [
+   {
+    "VALUE": "+1 555 0104",
+    "VALUE_TYPE": "WORK"
+   }
+  ],
+  "ASSIGNED_BY_ID": "5",
+  "SOURCE_ID": "WEB",
+  "DATE_CREATE": "2026-11-13T09:22:51+05:00"
+ },
+ {
+  "ID": "516",
+  "NAME": "Olivia Barnes",
+  "TITLE": "Website request — Olivia Barnes",
+  "PHONE": [
+   {
+    "VALUE": "+1 555 0138",
+    "VALUE_TYPE": "WORK"
+   }
+  ],
+  "ASSIGNED_BY_ID": "3",
+  "SOURCE_ID": "ADVERTISING",
+  "DATE_CREATE": "2026-11-13T12:34:26+05:00"
+ },
+ {
+  "ID": "517",
+  "NAME": "Chloe Price",
+  "TITLE": "Website request — Chloe Price",
+  "PHONE": [
+   {
+    "VALUE": "+1 555 0173",
+    "VALUE_TYPE": "WORK"
+   }
+  ],
+  "ASSIGNED_BY_ID": "4",
+  "SOURCE_ID": "WEB",
+  "DATE_CREATE": "2026-11-14T00:31:19+05:00"
+ },
+ {
+  "ID": "518",
+  "NAME": "Lily Walker",
+  "TITLE": "Website request — Lily Walker",
+  "PHONE": [
+   {
+    "VALUE": "+1 555 0156",
+    "VALUE_TYPE": "WORK"
+   }
+  ],
+  "ASSIGNED_BY_ID": "3",
+  "SOURCE_ID": "WEB",
+  "DATE_CREATE": "2026-11-14T05:52:45+05:00"
+ },
+ {
+  "ID": "519",
+  "NAME": "Zoe Barnes",
+  "TITLE": "Website request — Zoe Barnes",
+  "PHONE": [
+   {
+    "VALUE": "+1 555 0141",
+    "VALUE_TYPE": "WORK"
+   }
+  ],
+  "ASSIGNED_BY_ID": "1",
+  "SOURCE_ID": "WEB",
+  "DATE_CREATE": "2026-11-14T15:30:33+05:00"
+ },
+ {
+  "ID": "520",
+  "NAME": "James Walker",
+  "TITLE": "Website request — James Walker",
+  "PHONE": [
+   {
+    "VALUE": "+1 555 0172",
+    "VALUE_TYPE": "WORK"
+   }
+  ],
+  "ASSIGNED_BY_ID": "3",
+  "SOURCE_ID": "WEB",
+  "DATE_CREATE": "2026-11-11T18:02:51+05:00"
+ },
+ {
+  "ID": "521",
+  "NAME": "Ruby Foster",
+  "TITLE": "Website request — Ruby Foster",
+  "PHONE": [
+   {
+    "VALUE": "+1 555 0127",
+    "VALUE_TYPE": "WORK"
+   }
+  ],
+  "ASSIGNED_BY_ID": "1",
+  "SOURCE_ID": "CALL",
+  "DATE_CREATE": "2026-11-10T00:22:30+05:00"
+ },
+ {
+  "ID": "522",
+  "NAME": "Mason Cole",
+  "TITLE": "Website request — Mason Cole",
+  "PHONE": [
+   {
+    "VALUE": "+1 555 0126",
+    "VALUE_TYPE": "WORK"
+   }
+  ],
+  "ASSIGNED_BY_ID": "3",
+  "SOURCE_ID": "WEB",
+  "DATE_CREATE": "2026-11-13T19:55:06+05:00"
+ },
+ {
+  "ID": "523",
+  "NAME": "James Hayes",
+  "TITLE": "Website request — James Hayes",
+  "PHONE": [
+   {
+    "VALUE": "+1 555 0112",
+    "VALUE_TYPE": "WORK"
+   }
+  ],
+  "ASSIGNED_BY_ID": "2",
+  "SOURCE_ID": "WEB",
+  "DATE_CREATE": "2026-11-10T23:33:43+05:00"
+ },
+ {
+  "ID": "524",
+  "NAME": "Zoe Ward",
+  "TITLE": "Website request — Zoe Ward",
+  "PHONE": [
+   {
+    "VALUE": "+1 555 0176",
+    "VALUE_TYPE": "WORK"
+   }
+  ],
+  "ASSIGNED_BY_ID": "3",
+  "SOURCE_ID": "WEB",
+  "DATE_CREATE": "2026-11-12T16:09:04+05:00"
+ },
+ {
+  "ID": "525",
+  "NAME": "Mason Price",
+  "TITLE": "Website request — Mason Price",
+  "PHONE": [
+   {
+    "VALUE": "+1 555 0160",
+    "VALUE_TYPE": "WORK"
+   }
+  ],
+  "ASSIGNED_BY_ID": "1",
+  "SOURCE_ID": "RECOMMENDATION",
+  "DATE_CREATE": "2026-11-12T06:49:58+05:00"
+ },
+ {
+  "ID": "526",
+  "NAME": "Lucas Ward",
+  "TITLE": "Website request — Lucas Ward",
+  "PHONE": [
+   {
+    "VALUE": "+1 555 0139",
+    "VALUE_TYPE": "WORK"
+   }
+  ],
+  "ASSIGNED_BY_ID": "5",
+  "SOURCE_ID": "EMAIL",
+  "DATE_CREATE": "2026-11-15T12:46:49+05:00"
+ },
+ {
+  "ID": "527",
+  "NAME": "Ethan Price",
+  "TITLE": "Website request — Ethan Price",
+  "PHONE": [
+   {
+    "VALUE": "+1 555 0133",
+    "VALUE_TYPE": "WORK"
+   }
+  ],
+  "ASSIGNED_BY_ID": "1",
+  "SOURCE_ID": "WEB",
+  "DATE_CREATE": "2026-11-11T10:37:01+05:00"
+ },
+ {
+  "ID": "528",
+  "NAME": "Ella Ward",
+  "TITLE": "Website request — Ella Ward",
+  "PHONE": [
+   {
+    "VALUE": "+1 555 0135",
+    "VALUE_TYPE": "WORK"
+   }
+  ],
+  "ASSIGNED_BY_ID": "4",
+  "SOURCE_ID": "EMAIL",
+  "DATE_CREATE": "2026-11-13T23:23:35+05:00"
+ },
+ {
+  "ID": "529",
+  "NAME": "Ethan Hayes",
+  "TITLE": "Website request — Ethan Hayes",
+  "PHONE": [
+   {
+    "VALUE": "+1 555 0111",
+    "VALUE_TYPE": "WORK"
+   }
+  ],
+  "ASSIGNED_BY_ID": "1",
+  "SOURCE_ID": "WEB",
+  "DATE_CREATE": "2026-11-11T07:54:38+05:00"
+ },
+ {
+  "ID": "530",
+  "NAME": "Lily Hayes",
+  "TITLE": "Website request — Lily Hayes",
+  "PHONE": [
+   {
+    "VALUE": "+1 555 0170",
+    "VALUE_TYPE": "WORK"
+   }
+  ],
+  "ASSIGNED_BY_ID": "5",
+  "SOURCE_ID": "EMAIL",
+  "DATE_CREATE": "2026-11-11T09:27:02+05:00"
+ },
+ {
+  "ID": "531",
+  "NAME": "Zoe Cole",
+  "TITLE": "Website request — Zoe Cole",
+  "PHONE": [
+   {
+    "VALUE": "+1 555 0158",
+    "VALUE_TYPE": "WORK"
+   }
+  ],
+  "ASSIGNED_BY_ID": "1",
+  "SOURCE_ID": "EMAIL",
+  "DATE_CREATE": "2026-11-11T23:10:57+05:00"
+ },
+ {
+  "ID": "532",
+  "NAME": "Noah Cole",
+  "TITLE": "Website request — Noah Cole",
+  "PHONE": [
+   {
+    "VALUE": "+1 555 0137",
+    "VALUE_TYPE": "WORK"
+   }
+  ],
+  "ASSIGNED_BY_ID": "5",
+  "SOURCE_ID": "RECOMMENDATION",
+  "DATE_CREATE": "2026-11-13T10:36:26+05:00"
+ },
+ {
+  "ID": "533",
+  "NAME": "Emma Ward",
+  "TITLE": "Website request — Emma Ward",
+  "PHONE": [
+   {
+    "VALUE": "+1 555 0166",
+    "VALUE_TYPE": "WORK"
+   }
+  ],
+  "ASSIGNED_BY_ID": "2",
+  "SOURCE_ID": "WEB",
+  "DATE_CREATE": "2026-11-14T10:56:34+05:00"
+ },
+ {
+  "ID": "534",
+  "NAME": "Oscar Walker",
+  "TITLE": "Website request — Oscar Walker",
+  "PHONE": [
+   {
+    "VALUE": "+1 555 0171",
+    "VALUE_TYPE": "WORK"
+   }
+  ],
+  "ASSIGNED_BY_ID": "2",
+  "SOURCE_ID": "ADVERTISING",
+  "DATE_CREATE": "2026-11-10T19:32:32+05:00"
+ },
+ {
+  "ID": "535",
+  "NAME": "Jack Cole",
+  "TITLE": "Website request — Jack Cole",
+  "PHONE": [
+   {
+    "VALUE": "+1 555 0103",
+    "VALUE_TYPE": "WORK"
+   }
+  ],
+  "ASSIGNED_BY_ID": "5",
+  "SOURCE_ID": "EMAIL",
+  "DATE_CREATE": "2026-11-11T13:58:16+05:00"
+ },
+ {
+  "ID": "536",
+  "NAME": "Emma Cole",
+  "TITLE": "Website request — Emma Cole",
+  "PHONE": [
+   {
+    "VALUE": "+1 555 0179",
+    "VALUE_TYPE": "WORK"
+   }
+  ],
+  "ASSIGNED_BY_ID": "4",
+  "SOURCE_ID": "CALL",
+  "DATE_CREATE": "2026-11-11T02:52:39+05:00"
+ },
+ {
+  "ID": "537",
+  "NAME": "Jack Barnes",
+  "TITLE": "Website request — Jack Barnes",
+  "PHONE": [
+   {
+    "VALUE": "+1 555 0129",
+    "VALUE_TYPE": "WORK"
+   }
+  ],
+  "ASSIGNED_BY_ID": "2",
+  "SOURCE_ID": "WEB",
+  "DATE_CREATE": "2026-11-12T02:59:14+05:00"
+ },
+ {
+  "ID": "538",
+  "NAME": "Emma Ward",
+  "TITLE": "Website request — Emma Ward",
+  "PHONE": [
+   {
+    "VALUE": "+1 555 0102",
+    "VALUE_TYPE": "WORK"
+   }
+  ],
+  "ASSIGNED_BY_ID": "1",
+  "SOURCE_ID": "RECOMMENDATION",
+  "DATE_CREATE": "2026-11-14T20:24:29+05:00"
+ },
+ {
+  "ID": "539",
+  "NAME": "Max Cole",
+  "TITLE": "Website request — Max Cole",
+  "PHONE": [
+   {
+    "VALUE": "+1 555 0132",
+    "VALUE_TYPE": "WORK"
+   }
+  ],
+  "ASSIGNED_BY_ID": "5",
+  "SOURCE_ID": "WEB",
+  "DATE_CREATE": "2026-11-12T20:21:31+05:00"
+ },
+ {
+  "ID": "540",
+  "NAME": "Chloe Foster",
+  "TITLE": "Website request — Chloe Foster",
+  "PHONE": [
+   {
+    "VALUE": "+1 555 0150",
+    "VALUE_TYPE": "WORK"
+   }
+  ],
+  "ASSIGNED_BY_ID": "5",
+  "SOURCE_ID": "WEB",
+  "DATE_CREATE": "2026-11-11T10:00:47+05:00"
+ },
+ {
+  "ID": "541",
+  "NAME": "Chloe Walker",
+  "TITLE": "Website request — Chloe Walker",
+  "PHONE": [
+   {
+    "VALUE": "+1 555 0169",
+    "VALUE_TYPE": "WORK"
+   }
+  ],
+  "ASSIGNED_BY_ID": "3",
+  "SOURCE_ID": "WEB",
+  "DATE_CREATE": "2026-11-12T15:21:39+05:00"
+ },
+ {
+  "ID": "542",
+  "NAME": "Lucas Foster",
+  "TITLE": "Website request — Lucas Foster",
+  "PHONE": [
+   {
+    "VALUE": "+1 555 0125",
+    "VALUE_TYPE": "WORK"
+   }
+  ],
+  "ASSIGNED_BY_ID": "3",
+  "SOURCE_ID": "RECOMMENDATION",
+  "DATE_CREATE": "2026-11-09T21:13:20+05:00"
+ },
+ {
+  "ID": "543",
+  "NAME": "Olivia Price",
+  "TITLE": "Website request — Olivia Price",
+  "PHONE": [
+   {
+    "VALUE": "+1 555 0136",
+    "VALUE_TYPE": "WORK"
+   }
+  ],
+  "ASSIGNED_BY_ID": "2",
+  "SOURCE_ID": "CALL",
+  "DATE_CREATE": "2026-11-09T10:45:28+05:00"
+ },
+ {
+  "ID": "544",
+  "NAME": "James Reed",
+  "TITLE": "Website request — James Reed",
+  "PHONE": [
+   {
+    "VALUE": "+1 555 0140",
+    "VALUE_TYPE": "WORK"
+   }
+  ],
+  "ASSIGNED_BY_ID": "3",
+  "SOURCE_ID": "WEB",
+  "DATE_CREATE": "2026-11-11T22:42:33+05:00"
+ },
+ {
+  "ID": "545",
+  "NAME": "Ella Foster",
+  "TITLE": "Website request — Ella Foster",
+  "PHONE": [
+   {
+    "VALUE": "+1 555 0183",
+    "VALUE_TYPE": "WORK"
+   }
+  ],
+  "ASSIGNED_BY_ID": "4",
+  "SOURCE_ID": "RECOMMENDATION",
+  "DATE_CREATE": "2026-11-11T07:41:26+05:00"
+ },
+ {
+  "ID": "546",
+  "NAME": "Grace Reed",
+  "TITLE": "Website request — Grace Reed",
+  "PHONE": [
+   {
+    "VALUE": "+1 555 0113",
+    "VALUE_TYPE": "WORK"
+   }
+  ],
+  "ASSIGNED_BY_ID": "1",
+  "SOURCE_ID": "RECOMMENDATION",
+  "DATE_CREATE": "2026-11-09T11:28:33+05:00"
+ },
+ {
+  "ID": "547",
+  "NAME": "Chloe Foster",
+  "TITLE": "Website request — Chloe Foster",
+  "PHONE": [
+   {
+    "VALUE": "+1 555 0116",
+    "VALUE_TYPE": "WORK"
+   }
+  ],
+  "ASSIGNED_BY_ID": "1",
+  "SOURCE_ID": "CALL",
+  "DATE_CREATE": "2026-11-15T03:18:30+05:00"
+ },
+ {
+  "ID": "548",
+  "NAME": "Oscar Bennett",
+  "TITLE": "Website request — Oscar Bennett",
+  "PHONE": [
+   {
+    "VALUE": "+1 555 0191",
+    "VALUE_TYPE": "WORK"
+   }
+  ],
+  "ASSIGNED_BY_ID": "4",
+  "SOURCE_ID": "EMAIL",
+  "DATE_CREATE": "2026-11-11T07:36:10+05:00"
+ },
+ {
+  "ID": "549",
+  "NAME": "Mason Ward",
+  "TITLE": "Website request — Mason Ward",
+  "PHONE": [
+   {
+    "VALUE": "+1 555 0130",
+    "VALUE_TYPE": "WORK"
+   }
+  ],
+  "ASSIGNED_BY_ID": "4",
+  "SOURCE_ID": "WEB",
+  "DATE_CREATE": "2026-11-12T12:27:09+05:00"
+ },
+ {
+  "ID": "550",
+  "NAME": "Mason Price",
+  "TITLE": "Website request — Mason Price",
+  "PHONE": [
+   {
+    "VALUE": "+1 555 0119",
+    "VALUE_TYPE": "WORK"
+   }
+  ],
+  "ASSIGNED_BY_ID": "4",
+  "SOURCE_ID": "WEB",
+  "DATE_CREATE": "2026-11-12T07:16:49+05:00"
+ },
+ {
+  "ID": "551",
+  "NAME": "Chloe Barnes",
+  "TITLE": "Website request — Chloe Barnes",
+  "PHONE": [
+   {
+    "VALUE": "+1 555 0118",
+    "VALUE_TYPE": "WORK"
+   }
+  ],
+  "ASSIGNED_BY_ID": "4",
+  "SOURCE_ID": "WEB",
+  "DATE_CREATE": "2026-11-13T19:04:06+05:00"
+ },
+ {
+  "ID": "552",
+  "NAME": "Emma Cole",
+  "TITLE": "Website request — Emma Cole",
+  "PHONE": [
+   {
+    "VALUE": "+1 555 0159",
+    "VALUE_TYPE": "WORK"
+   }
+  ],
+  "ASSIGNED_BY_ID": "2",
+  "SOURCE_ID": "WEB",
+  "DATE_CREATE": "2026-11-15T01:54:55+05:00"
+ },
+ {
+  "ID": "553",
+  "NAME": "Ruby Hughes",
+  "TITLE": "Website request — Ruby Hughes",
+  "PHONE": [
+   {
+    "VALUE": "+1 555 0149",
+    "VALUE_TYPE": "WORK"
+   }
+  ],
+  "ASSIGNED_BY_ID": "1",
+  "SOURCE_ID": "WEB",
+  "DATE_CREATE": "2026-11-11T20:12:33+05:00"
+ },
+ {
+  "ID": "554",
+  "NAME": "Emma Barnes",
+  "TITLE": "Website request — Emma Barnes",
+  "PHONE": [
+   {
+    "VALUE": "+1 555 0134",
+    "VALUE_TYPE": "WORK"
+   }
+  ],
+  "ASSIGNED_BY_ID": "2",
+  "SOURCE_ID": "WEB",
+  "DATE_CREATE": "2026-11-11T13:31:20+05:00"
+ },
+ {
+  "ID": "555",
+  "NAME": "Noah Barnes",
+  "TITLE": "Website request — Noah Barnes",
+  "PHONE": [
+   {
+    "VALUE": "+1 555 0153",
+    "VALUE_TYPE": "WORK"
+   }
+  ],
+  "ASSIGNED_BY_ID": "4",
+  "SOURCE_ID": "WEB",
+  "DATE_CREATE": "2026-11-14T15:47:50+05:00"
+ },
+ {
+  "ID": "556",
+  "NAME": "Max Hughes",
+  "TITLE": "Website request — Max Hughes",
+  "PHONE": [
+   {
+    "VALUE": "+1 555 0188",
+    "VALUE_TYPE": "WORK"
+   }
+  ],
+  "ASSIGNED_BY_ID": "1",
+  "SOURCE_ID": "ADVERTISING",
+  "DATE_CREATE": "2026-11-11T06:54:12+05:00"
+ },
+ {
+  "ID": "557",
+  "NAME": "Jack Barnes",
+  "TITLE": "Website request — Jack Barnes",
+  "PHONE": [
+   {
+    "VALUE": "+1 555 0143",
+    "VALUE_TYPE": "WORK"
+   }
+  ],
+  "ASSIGNED_BY_ID": "1",
+  "SOURCE_ID": "ADVERTISING",
+  "DATE_CREATE": "2026-11-16T05:31:11+05:00"
+ },
+ {
+  "ID": "558",
+  "NAME": "Olivia Hughes",
+  "TITLE": "Website request — Olivia Hughes",
+  "PHONE": [
+   {
+    "VALUE": "+1 555 0174",
+    "VALUE_TYPE": "WORK"
+   }
+  ],
+  "ASSIGNED_BY_ID": "1",
+  "SOURCE_ID": "WEB",
+  "DATE_CREATE": "2026-11-14T15:16:42+05:00"
+ },
+ {
+  "ID": "559",
+  "NAME": "Nora Walker",
+  "TITLE": "Website request — Nora Walker",
+  "PHONE": [
+   {
+    "VALUE": "+1 555 0107",
+    "VALUE_TYPE": "WORK"
+   }
+  ],
+  "ASSIGNED_BY_ID": "1",
+  "SOURCE_ID": "EMAIL",
+  "DATE_CREATE": "2026-11-10T19:52:36+05:00"
+ },
+ {
+  "ID": "600",
+  "NAME": "Jack",
+  "TITLE": "Call back request — Jack",
+  "PHONE": [
+   {
+    "VALUE": "+15550108",
+    "VALUE_TYPE": "MOBILE"
+   }
+  ],
+  "ASSIGNED_BY_ID": "2",
+  "SOURCE_ID": "RECOMMENDATION",
+  "DATE_CREATE": "2026-11-16T09:00:00+05:00"
+ },
+ {
+  "ID": "601",
+  "NAME": "Oscar Walker",
+  "TITLE": "Call back request — Oscar Walker",
+  "PHONE": [
+   {
+    "VALUE": "1 555 01 71",
+    "VALUE_TYPE": "MOBILE"
+   }
+  ],
+  "ASSIGNED_BY_ID": "2",
+  "SOURCE_ID": "ADVERTISING",
+  "DATE_CREATE": "2026-11-12T17:36:11+05:00"
+ },
+ {
+  "ID": "602",
+  "NAME": "Chloe",
+  "TITLE": "Call back request — Chloe",
+  "PHONE": [
+   {
+    "VALUE": "+15550116",
+    "VALUE_TYPE": "MOBILE"
+   }
+  ],
+  "ASSIGNED_BY_ID": "2",
+  "SOURCE_ID": "WEB",
+  "DATE_CREATE": "2026-11-16T00:33:00+05:00"
+ },
+ {
+  "ID": "603",
+  "NAME": "Emma Cole",
+  "TITLE": "Call back request — Emma Cole",
+  "PHONE": [
+   {
+    "VALUE": "555-0159",
+    "VALUE_TYPE": "MOBILE"
+   }
+  ],
+  "ASSIGNED_BY_ID": "5",
+  "SOURCE_ID": "WEB",
+  "DATE_CREATE": "2026-11-16T09:00:00+05:00"
+ },
+ {
+  "ID": "604",
+  "NAME": "Ruby",
+  "TITLE": "Call back request — Ruby",
+  "PHONE": [
+   {
+    "VALUE": "(555) 0127",
+    "VALUE_TYPE": "MOBILE"
+   }
+  ],
+  "ASSIGNED_BY_ID": "1",
+  "SOURCE_ID": "EMAIL",
+  "DATE_CREATE": "2026-11-10T03:36:18+05:00"
+ },
+ {
+  "ID": "605",
+  "NAME": "Emma Barnes",
+  "TITLE": "Call back request — Emma Barnes",
+  "PHONE": [
+   {
+    "VALUE": "1 555 01 34",
+    "VALUE_TYPE": "MOBILE"
+   }
+  ],
+  "ASSIGNED_BY_ID": "2",
+  "SOURCE_ID": "WEB",
+  "DATE_CREATE": "2026-11-12T08:43:58+05:00"
+ }
+]
